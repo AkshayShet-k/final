@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home';
-import './logo';
-import './Footer';
-import './Highlight';
+import Home from './Home';
+import Logo1 from './logo';
+import Footer from './Footer';
+import Nextpage from './Nextpage';
 import image from './images/background.png';
 import './App.css';
 import {Route} from "react-router-dom";
@@ -17,10 +17,10 @@ function App() {
     width:'100vw',
     height:'100vh'
   }}>
-    <Logo/>
+    <Logo1/>
     <Footer /> 
        <Route exact path='/' component={Home}/>
-       <Route exact path='/:id' component={Highlight}/>
+       <Route exact path='/:id' component={Nextpage}/>
 
   </div>
   

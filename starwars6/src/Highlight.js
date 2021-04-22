@@ -1,15 +1,20 @@
-import React from 'react';
-import './Highlight.css';
-import Options from './Options';
+// import React from 'react';
+// import './Highlight.css';
+// // import Options from './Options';
+// import Navbar from './Navbar';
+// import List from './List';
 
 
-function Highlight({match}) {
-    return (
-      <div className='highlight' >
-          <Options name={match}/>
+
+// function Highlight({match}) {
+//     return (
+//       <div className='highlight' >
+//           <Navbar name={match}/>
+//           {/* <List  name={match}/> */}
+        
          
-      </div>
-    );
-  }
+//       </div>
+//     );
+//   }
   
-  export default Highlight;
+//   export default Highlight;

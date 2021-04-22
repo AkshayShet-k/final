@@ -1,0 +1,41 @@
+.List {
+  color: antiquewhite;
+  position: relative;
+}
+.buttons {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+}
+
+.left {
+  min-width: 120px;
+  height: 29px;
+  position: absolute;
+  left: 0;
+  background-color: #00a8ff;
+  opacity: 60%;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  border: 0;
+  outline: none;
+}
+
+.right {
+  min-width: 120px;
+  height: 29px;
+  position: absolute;
+  right: 0;
+  background-color: #00a8ff;
+  opacity: 60%;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  border: 0;
+  outline: none;
+}

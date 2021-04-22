@@ -16,8 +16,8 @@ function Icon({info}) {
 
     return (
       <div className="">
-          <img onMouseOver={mouseOver} onMouseOut={mouseOut} src={isHov?src2:src1} className="logo-img"></img>
-          <p className='logo-name'>{name}</p>
+          <img onMouseOver={mouseOver} onMouseOut={mouseOut} src={isHov?src2:src1} className="icon"></img>
+          <p className='icon_name'>{name}</p>
       </div>
     );
   }
