@@ -13,7 +13,7 @@ function Category() {
 
         {Data.map((data,index)=>{
           return (
-            <Link to={`/${data.name.toLowerCase()}`}>
+            <Link to={`/${data.name.toLowerCase()}`}  style={{ textDecoration: 'none' }}>
               <Icon key={index} info={data}/>
             </Link>
           )

@@ -3,6 +3,7 @@ import Home from './Home';
 import Logo1 from './logo';
 import Footer from './Footer';
 import Nextpage from './Nextpage';
+import Finaldisp from './Finaldisp';
 import image from './images/background.png';
 import './App.css';
 import {Route} from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
     <Footer /> 
        <Route exact path='/' component={Home}/>
        <Route exact path='/:id' component={Nextpage}/>
+       <Route path={"/:id/:id1/"} component = {Finaldisp} />
 
   </div>
   

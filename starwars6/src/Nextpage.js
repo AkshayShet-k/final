@@ -1,9 +1,10 @@
   
 import React from 'react';
 // import Logo from './logo';
-import './Highlight.css'
-import Footer from './Footer';
+// import './Highlight.css'
+// import Footer from './Footer';
 import Navbar from './Navbar';
+import List from './List';
 
 const Nextpage = ({match}) => {
     return (
@@ -12,7 +13,8 @@ const Nextpage = ({match}) => {
             <div className="holder">
                 <Navbar name={match} />
             </div>
-            <Footer/>
+            <List info ={match}/>
+            {/* <Footer/> */}
         </div>
     )
 }

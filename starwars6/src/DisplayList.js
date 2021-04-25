@@ -7,7 +7,8 @@ const DisplayList = ({id,list}) => {
         <div className="div-column">
             <ul className = "ul-column">
             {
-                    list.map((li, index) => {
+                    list.map((li) => {
+                        let index = li.url.match(/[0-9]+/);
                         return ( <NavLink to = {`/${id}/${index}`} className = "nav-links">
                             <li key={index} className="list-column">{li.name || li.title}</li></NavLink>)
                 })

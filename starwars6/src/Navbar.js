@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import List from './List';
+// import List from './List';
 import './navbar.css'
 import { NavLink } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const Navbar = ({ name }) => {
                 })}
                 </ul>
             </div>
-            <List info={name}/>
+            {/* <List info={name}/> */}
         </div>
     )
 
